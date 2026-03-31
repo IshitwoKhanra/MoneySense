@@ -35,29 +35,36 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### Installation
 
 1. **Clone the repository:**
-   ```git clone [https://github.com/yourusername/moneysense.git](https://github.com/yourusername/moneysense.git)
-   cd moneysense```
+   ```bash
+   git clone [https://github.com/yourusername/moneysense.git](https://github.com/yourusername/moneysense.git)
+   cd moneysense
+   ```
 
-   Install dependencies:
-    ```npm install```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-    Start the development server:
-    ```npm run dev```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-    Open your browser:
-    Navigate to http://localhost:5173 (or the port Vite provides in your terminal).
+4. **Open your browser:**
+   Navigate to `http://localhost:5173` (or the port Vite provides in your terminal).
 
-    🔐 Demo Access
+## 🔐 Demo Access
+
 The application currently uses a mocked authentication flow for demonstration purposes. Use the following credentials to log in to the dashboard:
 
-Email: ishitwo@moneysense.com
+* **Email:** `ishitwo@moneysense.com`
+* **Password:** `demo123`
 
-Password: demo123
+*(Note: Data is saved locally in your browser's `localStorage`. If you wish to reset the demo data, clear your browser's local storage for the site and refresh the page.)*
 
-(Note: Data is saved locally in your browser's localStorage. If you wish to reset the demo data, clear your browser's local storage for the site and refresh the page.)
+## 📁 Folder Structure
 
-📁 Folder Structure
-```
+```text
 moneysense/
 ├── public/                # Static assets
 ├── src/
@@ -77,3 +84,7 @@ moneysense/
 ├── package.json
 └── vite.config.js
 ```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
