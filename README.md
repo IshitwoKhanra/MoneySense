@@ -1,7 +1,5 @@
-# MoneySense
-Ishitwo Khanra 24BCE2975 - Web Programming Project
-
 # MoneySense 💸
+**Ishitwo Khanra 24BCE2975 - Web Programming Project**
 
 MoneySense is a modern, responsive personal finance dashboard built with React. It helps users track their net worth, monitor monthly budgets, visualize spending habits, and securely manage their financial data all in one elegant interface.
 
@@ -36,23 +34,20 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### Installation
 
-1. **Clone the repository** (or download the source code):
-   ```bash
+1. **Clone the repository:**
    git clone [https://github.com/yourusername/moneysense.git](https://github.com/yourusername/moneysense.git)
-   cd moneysense
+   cd moneysense```
 
    Install dependencies:
+    npm install
 
-Bash
-npm install
-Start the development server:
+    Start the development server:
+    npm run dev
 
-Bash
-npm run dev
-Open your browser:
-Navigate to http://localhost:5173 (or the port Vite provides in your terminal).
+    Open your browser:
+    Navigate to http://localhost:5173 (or the port Vite provides in your terminal).
 
-🔐 Demo Access
+    🔐 Demo Access
 The application currently uses a mocked authentication flow for demonstration purposes. Use the following credentials to log in to the dashboard:
 
 Email: ishitwo@moneysense.com
@@ -61,16 +56,8 @@ Password: demo123
 
 (Note: Data is saved locally in your browser's localStorage. If you wish to reset the demo data, clear your browser's local storage for the site and refresh the page.)
 
+📁 Folder Structure
 
-***
-
-### Part 3: Folder Structure and License
-Finally, paste this at the very bottom:
-
-```markdown
-## 📁 Folder Structure
-
-```text
 moneysense/
 ├── public/                # Static assets
 ├── src/
@@ -89,5 +76,3 @@ moneysense/
 ├── index.html
 ├── package.json
 └── vite.config.js
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
