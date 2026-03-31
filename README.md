@@ -35,14 +35,14 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### Installation
 
 1. **Clone the repository:**
-   git clone [https://github.com/yourusername/moneysense.git](https://github.com/yourusername/moneysense.git)
+   ```git clone [https://github.com/yourusername/moneysense.git](https://github.com/yourusername/moneysense.git)
    cd moneysense```
 
    Install dependencies:
-    npm install
+    ```npm install```
 
     Start the development server:
-    npm run dev
+    ```npm run dev```
 
     Open your browser:
     Navigate to http://localhost:5173 (or the port Vite provides in your terminal).
@@ -57,7 +57,7 @@ Password: demo123
 (Note: Data is saved locally in your browser's localStorage. If you wish to reset the demo data, clear your browser's local storage for the site and refresh the page.)
 
 📁 Folder Structure
-
+```
 moneysense/
 ├── public/                # Static assets
 ├── src/
@@ -76,3 +76,4 @@ moneysense/
 ├── index.html
 ├── package.json
 └── vite.config.js
+```
